@@ -41,12 +41,15 @@ public class ImportarCSV {
                 //separa os campos entre as virgulas de cada linha
                 String[] valoresEntreVirgulas = linhasDoArquivo.split(";");
                 
-                //imprime a coluna que quiser, no exemplo imprime a coluna 1, 2  e 3 da tabela.
-                System.out.println(valoresEntreVirgulas[0] + " - " +  valoresEntreVirgulas[1]  + " - " +  valoresEntreVirgulas[2] + " - " +  valoresEntreVirgulas[3]);
-                // 
-              
+                //imprime a coluna que quiser
+                System.out.println(valoresEntreVirgulas[0] + " - " 
+                                +  valoresEntreVirgulas[1] + " - "
+                                +  valoresEntreVirgulas[2] + " - " 
+                                +  valoresEntreVirgulas[3]);
                 
-                //System.out.println(linhasDoArquivo); //imprime todo o arquivo
+              
+                //imprime todo o arquivo
+                //System.out.println(linhasDoArquivo);
                 
             }
         
