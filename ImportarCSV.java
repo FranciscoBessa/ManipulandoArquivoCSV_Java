@@ -21,7 +21,7 @@ public class ImportarCSV {
      */
     public static void main(String[] args) {
        //abre um arquivo e cria um file
-       File arquivoCSV = new File("C:\\Users\\Francisco\\OneDrive\\Área de Trabalho\\arquivo.csv");
+       File arquivoCSV = new File("C:\\local_do_arquivo\\arquivo.csv");
      
         try{
             
